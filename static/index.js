@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return '还是去学化学罢';
+    if (score <= 99) return '被圆周运动的火车创飞了';
+    if (score <= 149) return '随便扔支笔都能出圆弧（大误）';
+    if (score <= 199) return '拖鞋批发商就是您';
+    return '杨老师看了都说好';
 }
 
 function toStr(obj) {
@@ -408,7 +408,7 @@ function goRank() {
     }
     window.location.href=link;
 }
-console.log("不修改，好嘛？乱传又有什么用呢？(ˉ▽ˉ；)...")
+console.log("？")
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false
